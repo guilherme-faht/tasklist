@@ -1,0 +1,96 @@
+/**
+ * Tema do Projeto
+ */
+
+ .button-bar {
+  margin:10px 0;
+ }
+
+ .task-list {
+  margin: 10px 0 20px 0;
+  clear: both;
+  min-height: 30%;
+  .task {
+    background: #2C3F51;
+    margin: 10px 0;
+    padding: 5px;
+    cursor: pointer;
+    &:hover {
+      background: #1B3645;
+    }
+    .task-title {
+      color: $body-color;
+      padding: 10px;
+    }
+    .btn-link {
+      margin-top: 2px;
+      &:hover {
+        color: $body-color;
+      }
+    }
+    .task-delete {
+      background-color: #186077;
+      padding: 5px;
+      margin: 10px;
+    }
+  }
+ }
+
+ .add-task {
+  .add-button {
+    color: #03CEE7
+  }
+ }
+
+ .right-form {
+  position: fixed;
+  top: 65px;
+  right: 0;
+  width: 33%;
+  -webkit-box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
+  bottom: 0;
+  .close {
+    color: #FFF;
+    text-shadow: none;
+    cursor: pointer;
+  }
+  .card-body {
+    overflow-y: auto;
+  }
+}
+
+.toast-body {
+  padding: 25px;
+}
+.toast-header {
+  .close {
+    margin-right: 5px;
+  }
+}
+
+input, select, textarea {
+  background: #1B2126 !important;
+  color: #A8BBC0 !important;
+  border: #1B2126 !important;
+}
+
+.dropdown-menu {
+  background: #1F2E3C !important;
+  color: $body-color !important;
+}
+.dropdown-item {
+  color: $body-color !important;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+  text-decoration: none;
+  background-color: #2C3F51 !important;
+}
+.dropdown-divider {
+  height: 0;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
